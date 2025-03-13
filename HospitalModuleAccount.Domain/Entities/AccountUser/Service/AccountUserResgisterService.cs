@@ -1,12 +1,12 @@
 ﻿
 
-using HospitalModuleUser.Domain.Exceptions.UserExceptions;
-using HospitalModuleUser.Domain.Common;
-using HospitalModuleUser.Domain.Entities.AccountUser.Model.Dto;
-using HospitalModuleUser.Domain.Entities.AccountUser.Model.Entity;
-using HospitalModuleUser.Domain.Entities.AccountUser.Port.InterfacesRepositories;
+using HospitalModuleAccount.Domain.Exceptions.UserExceptions;
+using HospitalModuleAccount.Domain.Common;
+using HospitalModuleAccount.Domain.Entities.AccountUser.Model.Dto;
+using HospitalModuleAccount.Domain.Entities.AccountUser.Model.Entity;
+using HospitalModuleAccount.Domain.Entities.AccountUser.Port.InterfacesRepositories;
 
-namespace HospitalModuleUser.Domain.Entities.AccountUser.Service
+namespace HospitalModuleAccount.Domain.Entities.AccountUser.Service
 {
     [DomainService]
     public class AccountUserResgisterService
