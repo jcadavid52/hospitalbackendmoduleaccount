@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HospitalModuleAccount.Domai
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HospitalModuleAccount.DomainTest", "HospitalModuleAccount.DomainTest\HospitalModuleAccount.DomainTest.csproj", "{BC5781DC-AF71-433E-9CBB-8FD18F34F7F7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HospitalModuleAccount.Application", "HospitalModuleAccount.Application\HospitalModuleAccount.Application.csproj", "{F3CBD65C-978E-4E80-BC66-AA6F4552F99C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{BC5781DC-AF71-433E-9CBB-8FD18F34F7F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC5781DC-AF71-433E-9CBB-8FD18F34F7F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC5781DC-AF71-433E-9CBB-8FD18F34F7F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3CBD65C-978E-4E80-BC66-AA6F4552F99C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3CBD65C-978E-4E80-BC66-AA6F4552F99C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3CBD65C-978E-4E80-BC66-AA6F4552F99C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3CBD65C-978E-4E80-BC66-AA6F4552F99C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
