@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HospitalModuleAccount.Domai
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HospitalModuleAccount.Application", "HospitalModuleAccount.Application\HospitalModuleAccount.Application.csproj", "{F3CBD65C-978E-4E80-BC66-AA6F4552F99C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HospitalModuleAccount.Infrastructure", "HospitalModuleAccount.Infrastructure\HospitalModuleAccount.Infrastructure.csproj", "{F4052A74-4AEF-414F-AF57-F753872DA6AE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{F3CBD65C-978E-4E80-BC66-AA6F4552F99C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F3CBD65C-978E-4E80-BC66-AA6F4552F99C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F3CBD65C-978E-4E80-BC66-AA6F4552F99C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4052A74-4AEF-414F-AF57-F753872DA6AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4052A74-4AEF-414F-AF57-F753872DA6AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4052A74-4AEF-414F-AF57-F753872DA6AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4052A74-4AEF-414F-AF57-F753872DA6AE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
