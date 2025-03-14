@@ -138,7 +138,7 @@ using (var scope = app.Services.CreateScope())
     }
 }
 
-//crear rol por defecto cuando es base de datos en memoria
+//crear rol usuario por defecto
 using (var scope = app.Services.CreateScope())
 {
     var roleManager = scope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>();
