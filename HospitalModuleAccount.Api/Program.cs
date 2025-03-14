@@ -45,7 +45,7 @@ builder.Services.AddDomainServices();
 
 builder.Services.AddMediatR(cfg =>
 {
-    cfg.RegisterServicesFromAssembly(Assembly.Load("HospitalModuleUser.Application"));
+    cfg.RegisterServicesFromAssembly(Assembly.Load("HospitalModuleAccount.Application"));
 });
 
 var key = builder.Configuration.GetValue<string>("ApiSettings:SecretKey");
