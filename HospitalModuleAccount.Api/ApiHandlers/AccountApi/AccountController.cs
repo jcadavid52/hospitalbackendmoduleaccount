@@ -1,5 +1,6 @@
 ﻿using HospitalModuleAccount.Application.Account.CommandHandler.Command;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace HospitalModuleAccount.Api.ApiHandlers.AccountApi
@@ -29,6 +30,13 @@ namespace HospitalModuleAccount.Api.ApiHandlers.AccountApi
             var resultAccess = await _mediator.Send(command);
 
             return Ok(resultAccess);
+        }
+
+        [HttpGet ("StatusAuth")]
+        [Authorize]
+        public IActionResult StatusAuth()
+        {
+            return Ok(new { isValid = true });
         }
     }
 }
