@@ -1,4 +1,5 @@
 ﻿using HospitalModuleAccount.Application.Account.CommandHandler.Command;
+using HospitalModuleAccount.Application.Account.QueryHandler.Query;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -34,9 +35,10 @@ namespace HospitalModuleAccount.Api.ApiHandlers.AccountApi
 
         [HttpGet ("StatusAuth")]
         [Authorize]
-        public IActionResult StatusAuth()
+        public async Task<IActionResult> StatusAuth(string id)
         {
-            return Ok(new { isValid = true });
+            var user = await _mediator.Send(new AccountFindByIdQuery(id));
+            return Ok(user);
         }
     }
 }
